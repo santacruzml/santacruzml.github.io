@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'ml_web_app'
+    'ml_web_app',
+    'ml_web_app.scml_calendar'
 ]
 
 MIDDLEWARE = [
