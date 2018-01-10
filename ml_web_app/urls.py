@@ -20,6 +20,5 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index, name="index"),
-    url(r'^admin/', admin.site.urls),
-    url(r'^calendar/', include('ml_web_app.scml_calendar.urls'))
+    url(r'^admin/', admin.site.urls)
 ]
